@@ -6,7 +6,38 @@
     border: 1px solid black;
 }
 /* general */
+.button-blue{
+    background-color: blue;
+    text-align: center;
+    line-height: center;
+    color: white;
+    height: 30px;
+    padding: 0 10px;
+}
 .container{
     width: 1200px;
     margin: auto;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header-top */
+.header-container-top{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-top-left, .header-top-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top-left > *{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.header-top-right > * {
+    margin-left: 10px;
+    margin-right: 5px;
 }
