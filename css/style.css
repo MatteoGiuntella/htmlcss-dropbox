@@ -19,6 +19,13 @@ img{
     padding: 0 10px;
     border: none;
 }
+.button-white{
+    background-color: white;
+    text-align: center;
+    line-height: center;
+    height: 30px;
+    padding: 0 10px;
+}
 .container{
     width: 1000px;
     margin: auto;
@@ -60,7 +67,7 @@ li{
 }
 .header-container-bottom > div{
     padding-top: 50px;
-    margin-left: 230px;
+    margin-left: 280px;
 }
 h1{
     font-size: 50px;
@@ -73,24 +80,33 @@ h1{
     width: 100%;
 }
 .left-header-bottom{
+    position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     width: 100%;
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.left-header-bottom > p{
+    margin: 40px 0;
 }
 .right-header-bottom-1{
     position: relative;
+    width: 100%;
 }
 .right-header-bottom-2{
     position: absolute;
-    bottom: -20px;
-    width: 50%;
+    bottom: -40px;
+    width: 100%;
 }
 .left-header-bottom > button{
     width: 40%;
     padding-bottom: 0;
+    margin-bottom: 10px;
 }
-
 /* main-section-1 */
 .first-section{
     margin-top: 100px;
@@ -162,4 +178,17 @@ label{
 }
 .info-footer-section1-left > *{
     margin-top: 30px;
+}
+/* main-section-2 */
+.second-section{
+    margin-top: 100px;
+    width: 100%;
+}
+.card-section-2{
+    display: flex;
+}
+.box-right > *{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
