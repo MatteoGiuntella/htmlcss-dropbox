@@ -134,6 +134,9 @@ label{
     text-align: center;
     line-height: 50px;
 }
+.info-columns ul > li{
+    display: flex;
+}
 .info-columns{
     margin: 0 5px;
     display: flex;
@@ -192,3 +195,23 @@ label{
     margin-left: 50px;
     margin-right: 50px;
 }
+/* main-section-3 */
+.third-section{
+    margin-top: 50px;
+}
+.box-container-third-section{
+    width: 100%;
+}
+.card-container-section-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: calc(90% / 3);
+}
+.card > *{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* main-section-4 */
