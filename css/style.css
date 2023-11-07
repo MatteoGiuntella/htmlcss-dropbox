@@ -250,7 +250,7 @@ label{
 .partner > img{
     width: calc(100vw / 8);
     height: calc(100vw / 8);
-    /* filter:contrast(-100%) */
+    filter: invert(100%);
 }
 .background-blu{
     background-color: blue;
