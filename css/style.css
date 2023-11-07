@@ -5,6 +5,10 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
+img{
+    display: block;
+    width: 100%;
+}
 /* general */
 .button-blue{
     background-color: blue;
@@ -21,6 +25,13 @@
 }
 a{
     text-decoration: none;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.fa-check{
+    color:  #1162ee;
 }
 
 /* Header-top */
@@ -65,18 +76,21 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 40%;
+    width: 100%;
 }
-.right-header-bottom{
-    width: 60%;
+.right-header-bottom-1{
+    position: relative;
+}
+.right-header-bottom-2{
+    position: absolute;
+    bottom: -20px;
+    width: 50%;
 }
 .left-header-bottom > button{
     width: 40%;
     padding-bottom: 0;
 }
-.right-header-bottom > * {
-    width: 100%;   
-}
+
 /* main-section-1 */
 .first-section{
     margin-top: 100px;
@@ -94,10 +108,31 @@ label{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .columns-box-main{
     width: calc(90% / 3);
 }
 .item-columns{
+    height: 50px;
     text-align: center;
+    line-height: 50px;
 }
+.info-columns{
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+.info-columns > *{
+    margin: 20px 0;
+}
+.info-columns > button{
+    width: 100%;
+}
+.info-columns > hr{
+    width: 30%;
+}
+.info-columns > p{
+    color: gray;
+}
+
