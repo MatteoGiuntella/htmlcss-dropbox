@@ -278,7 +278,21 @@ label{
     color: purple;
 }
 .container-section-six > *{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-    
+/* footer  */
+.box-footer-top{
+    width: 100%;
+}
+.info-footer-top{
+    margin-top: 50px;
+}
+.info-footer-top > *{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.under-row{
+    display: flex;
+    justify-content: space-between;
+}
