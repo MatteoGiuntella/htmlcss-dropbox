@@ -247,6 +247,23 @@ label{
     justify-content: center;
     align-items: center;
 }
+.only-one-container{
+    background-color: beige;
+    width: 50%;
+}
+.only-one-container > *{
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.only-one-container > hr{
+    width: 20%;
+    border-color: lightgray;
+}
+.only-one-container > p{
+    width: 80%;
+}
 .partner > img{
     width: calc(100vw / 8);
     height: calc(100vw / 8);
