@@ -296,3 +296,35 @@ label{
     display: flex;
     justify-content: space-between;
 }
+.box-footer-bottom{
+    background-color: black;
+}
+.black-columns{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.inside-columns{
+    color: white;
+}
+.inside-columns > h3{
+    margin-bottom: 30px;
+}
+.under-black-columns{
+    width: 10%;
+}
+.under-black-columns > hr{
+    border-color: white;
+}
+.under-black-columns .language {
+    margin-top: 50px;
+    color: white;
+}
+.language{
+    display: flex;
+    justify-content: space-between;
+}
+.under-black-columns .language .fa-sort-up{
+   margin-top: 3px;
+}
