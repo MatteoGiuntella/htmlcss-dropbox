@@ -264,5 +264,21 @@ label{
 .background-red{
     background-color: red;
 }
-  
+/* sectin 6 */
+.section-six{
+    background-color:lightskyblue ;
+    width: 100%;
+}
+.container-section-six{
+    display: flex;
+    justify-content: space-between;
+}
+.container-section-six > h2{
+    font-size: 50px;
+    color: purple;
+}
+.container-section-six > *{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
     
