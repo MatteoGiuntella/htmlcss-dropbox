@@ -367,20 +367,13 @@ label{
 .under-black-columns .language .fa-sort-up{
    margin-top: 3px;
 }
-/* bonus */
+/* bonus menu a tendina*/
 .header-container-top{
     display: flex;
     justify-content: space-between;
 }
-/* .nav-right ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
 .nav-right ul li{
     display: inline-block;
-    /* margin-left: 20px;
-    margin-right: 20px; */
 }
 .header-top-left{
     display: flex;
@@ -389,15 +382,8 @@ label{
     height: 20px;
     padding: 10px 15px;
 }
-/* .nav-left ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} */
 .nav-left ul li{
     display: inline-block;
-    /* margin-left: 20px;
-    margin-right: 20px; */
 }
 .header-container-top > *{
     display: flex;
