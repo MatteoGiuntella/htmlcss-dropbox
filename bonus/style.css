@@ -83,14 +83,14 @@ h1{
 .container-info-header{
     display: flex;
     margin-top: 50px;
-    height: 280px;
+    min-height: 280px;
     width: 100%;
 }
 .left-header-bottom{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
 }
 .arrow{
     position: absolute;
@@ -102,7 +102,7 @@ h1{
 }
 .right-header-bottom-1{
     position: relative;
-    width: 100%;
+    width: 50%;
 }
 .right-header-bottom-2{
     position: absolute;
@@ -415,3 +415,24 @@ label{
     display: block;
 }
 /* bonus domande frequenti */
+/* .info-footer-top{
+    margin-top: 50px;
+}
+.under-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.under-row span > i{
+    text-align: right;
+}
+.under-row > *{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.invisible{
+    display: none;
+}
+.under-row input:hover {
+    transform: rotate(180deg);
+} */
